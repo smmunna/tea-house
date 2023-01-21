@@ -3,57 +3,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
 
 /* Set the Variables */
-:root{
-    --primaryColor:black;
-    --secondaryColor:#777777;
-    --thirdColor:#FF8938;
-    --forthColor:white;
-    --backgroudColor:linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
-    --backgroundCard:linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
+:root {
+    --primaryColor: black;
+    --secondaryColor: #777777;
+    --thirdColor: #FF8938;
+    --forthColor: white;
+    --backgroudColor: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+    --backgroundCard: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
 
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
 /* Navbar */
-nav{
+nav {
     background: linear-gradient(to right, rgba(255, 0, 0, 0.112), rgba(119, 255, 0, 0.094));
     box-shadow: 2px 2px 10px rgba(147, 145, 145, 0.388);
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: 'Lobster', 'cursive';
     font-size: 2.5vw;
     font-weight: bold;
-    background-image: -webkit-linear-gradient(
-      45deg,
-      #f61414 30%,
-      #44ff00 70%
-    );
+    background-image: -webkit-linear-gradient(45deg,
+            #f61414 30%,
+            #44ff00 70%);
     background-clip: text;
     -webkit-background-clip: text;
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     border: hidden;
-    background: linear-gradient(to right,rgb(255, 255, 255),rgba(0, 128, 0, 0.511));
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 128, 0, 0.511));
     font-size: 8vw;
 }
 
-.nav-link{
+.nav-link {
     color: black;
     font-size: 1vw;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: rgb(206, 109, 109);
 }
-.nav-link:focus{
+
+.nav-link:focus {
     color: red;
 }
 
-.cart,.login{
+.cart,
+.login {
     font-size: 1vw;
     background-color: rgba(40, 40, 145, 0.751);
     padding: 0.5vw;
@@ -61,30 +64,34 @@ nav{
     color: white;
     box-shadow: 2px 2px 5px rgba(0, 0, 255, 0.404);
 }
-.login:hover{
+
+.login:hover {
     color: white;
     cursor: pointer;
 }
-.cart:hover{
+
+.cart:hover {
     cursor: pointer;
     color: white;
 }
 
 /* Header part 01 */
-.header-heading{
+.header-heading {
     font-size: 5vw;
     font-weight: 800;
 }
-.header-left{
-    margin-top:20%;
+
+.header-left {
+    margin-top: 20%;
 }
-.header-left p{
+
+.header-left p {
     margin-top: 2%;
-    font-size:1.37vw;
+    font-size: 1.37vw;
     color: var(--secondaryColor);
 }
 
-.btn-primary button{
+.btn-primary button {
     border: hidden;
     border-radius: 12px;
     color: var(--forthColor);
@@ -93,132 +100,159 @@ nav{
     background: var(--backgroudColor);
 }
 
-.header-right{
-    margin-top:15%;
+.header-right {
+    margin-top: 15%;
     position: relative;
 }
-.header-rating{
+
+.header-rating {
     position: absolute;
     margin: -20% 10%;
     background-color: var(--forthColor);
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.185);
     padding: 14px;
 }
-.rating-star{
+
+.rating-star {
     font-size: 2vw;
     color: var(--thirdColor);
 }
 
 /* Section 01 Start */
-.section1-description{
+.section1-description {
     color: var(--secondaryColor);
     line-height: 1.8;
 }
-.section1-title-description{
+
+.section1-title-description {
     text-align: center;
 }
-.section1-img{
+
+.section1-img {
     width: 75%;
 }
-.section1-card-style{
+
+.section1-card-style {
     border: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 22px;
 }
+
 .card.h-100.section1-card-style {
     background-color: rgba(255, 0, 0, 0.107);
     box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.242);
 }
+
 /* Section 01 End */
 /* --------------------------
     Responsive Design 
     -------------------------*/
 
 /* For Landscape devices or large phone landscape */
-@media only screen and (min-width:577px) and (max-width:992px){
-      /* navbar */
-      .navbar-brand{
+@media only screen and (min-width:577px) and (max-width:992px) {
+
+    /* navbar */
+    .navbar-brand {
         font-size: 5vw;
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         font-size: 5vw;
     }
-    .nav-link{
+
+    .nav-link {
         font-size: 2vw;
     }
-    .cart,.login{
+
+    .cart,
+    .login {
         padding: 1vw;
         margin-bottom: 2%;
     }
+
     /* Header 2nd part */
-    .rating-star{
+    .rating-star {
         font-size: 3vw;
     }
-    .description h3{
+
+    .description h3 {
         font-size: 2.2vw;
     }
-    .description p{
+
+    .description p {
         font-size: 1.2vw;
     }
 }
 
 /* For Mobile Devices Potrait */
-@media only screen and (max-width:576px){
+@media only screen and (max-width:576px) {
+
     /* navbar */
-    .navbar-brand{
+    .navbar-brand {
         font-size: 10vw;
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         font-size: 9vw;
     }
-    .nav-link{
+
+    .nav-link {
         padding-left: 3vw;
         font-size: 5vw;
     }
-    .cart,.login{
+
+    .cart,
+    .login {
         padding: 2vw;
         padding-left: 3vw;
         margin-bottom: 5%;
     }
 
     /* Header Second Part */
-    .header-left{
-        margin-top:5%;
+    .header-left {
+        margin-top: 5%;
     }
-    .header-heading{
+
+    .header-heading {
         font-size: 8vw;
         line-height: 1.5;
     }
-    .header-left p{
-        font-size:4.37vw;
+
+    .header-left p {
+        font-size: 4.37vw;
         line-height: 1.5;
     }
-    .btn-primary button{
+
+    .btn-primary button {
         font-size: 3.5vw;
     }
 
-    .header-rating{
+    .header-rating {
         margin: -10% 10%;
         padding: 14px;
     }
-    .rating-star{
+
+    .rating-star {
         font-size: 12vw;
     }
-    .description h3{
+
+    .description h3 {
         color: var(--thirdColor);
         font-weight: bolder;
     }
 
     /* Section 01-image */
-    .section1{
+    .section1 {
         margin-top: 50%;
     }
-    .section1-img{
+
+    .section1-img {
         width: 50%;
     }
-    .section1-card-style{
+
+    .section1-card-style {
         display: flex;
         justify-content: center;
         align-items: center;
