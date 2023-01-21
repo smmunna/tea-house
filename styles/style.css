@@ -13,7 +13,8 @@ nav{
 }
 .navbar-brand{
     font-family: 'Lobster', 'cursive';
-    font-size: 3.5vw;
+    font-size: 2.5vw;
+    font-weight: bold;
     background-image: -webkit-linear-gradient(
       45deg,
       #f61414 30%,
@@ -24,9 +25,75 @@ nav{
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
 }
+.navbar-toggler{
+    border: hidden;
+    color: rgb(63, 63, 63);
+    font-size: 8vw;
+}
+
 .nav-link{
     color: black;
+    font-size: 1vw;
+}
+.nav-link:hover{
+    color: rgb(206, 109, 109);
 }
 .nav-link:focus{
     color: red;
+}
+
+.cart,.login{
+    font-size: 1vw;
+    background-color: rgba(40, 40, 145, 0.751);
+    padding: 0.5vw;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 255, 0.404);
+}
+.login:hover{
+    color: white;
+    cursor: pointer;
+}
+.cart:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+/* --------------------------
+    Responsive Design 
+    -------------------------*/
+
+/* For Landscape devices or large phone landscape */
+@media only screen and (min-width:577px) and (max-width:992px){
+      /* navbar */
+      .navbar-brand{
+        font-size: 5vw;
+    }
+    .nav-link{
+        font-size: 2vw;
+    }
+    .cart,.login{
+        padding: 1vw;
+        margin-bottom: 2%;
+    }
+}
+
+/* For Mobile Devices Potrait */
+@media only screen and (max-width:576px){
+    /* navbar */
+    .navbar-brand{
+        font-size: 10vw;
+    }
+    .nav-link{
+        padding-left: 3vw;
+        font-size: 5vw;
+    }
+    .cart,.login{
+        padding: 2vw;
+        padding-left: 3vw;
+        margin-bottom: 5%;
+    }
 }
