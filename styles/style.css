@@ -305,6 +305,13 @@ nav {
     width: 400px;
 }
 
+.social{
+     display: flex;
+     justify-content: space-evenly;
+     font-size: 1.5vw;
+     gap: 15px;
+     margin-top: 8%;
+}
 /* --------------------------
     Responsive Design 
     -------------------------*/
@@ -417,6 +424,16 @@ nav {
     .help,
     .help-link {
         margin-left: -15%;
+    }
+
+    .social{
+        font-size: 3vw;
+        margin-bottom: 5%;
+    }
+    .footer-copy-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
@@ -580,5 +597,8 @@ nav {
     .footer-copy-right {
         padding: 20px 50px;
         margin-top: 5%;
+    }
+    .social{
+        font-size: 8vw;
     }
 }
