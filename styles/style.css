@@ -189,6 +189,48 @@ nav {
     color: var(--secondaryColor);
     text-align: justify;
 }
+
+/* Section 03 */
+.section3{
+    background:linear-gradient(270deg, #ff000083 0%, #ff8838f4 100%),url('../images/icons/Group 4080.png') no-repeat,url('../images/icons/Group 3893.png') no-repeat  right 40%,url('../images/icons/Group 3893.png') no-repeat right 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 120px;
+    border-radius: 12px;
+}
+.section3-button button{
+    padding: 12px;
+    border: hidden;
+    border-radius: 12px;
+    background-color: white;
+    color: var(--thirdColor);
+    font-weight: bolder;
+}
+.section3-description{
+    color: rgba(255, 255, 255, 0.811);
+}
+
+ .section3-heading{
+    color: white;
+}
+
+.section3-right-card{
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+}
+.card-image{
+    margin-top: 5%;
+    font-size: 1.5vw;
+}
+.section3-right-description{
+    margin-top: 2%;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
 /* --------------------------
     Responsive Design 
     -------------------------*/
@@ -238,6 +280,26 @@ nav {
 
         width: 150%px;
     }
+
+     /* Section 03 */
+     .section3{
+        padding: 45px 35px;
+        flex-direction: column;
+     }
+     .section3-heading{
+       font-size: 5vw;
+    }
+    .card-image{
+        font-size: 2.5vw;
+    }
+    .section3-right-description{
+        font-size: 2.8vw;
+    }
+    .section3-right-name.d-flex.justify-content-between {
+        font-size: 1.8vw;
+        color: rgba(255, 0, 0, 0.242);
+    }
+   
 }
 
 /* For Mobile Devices Potrait */
@@ -323,6 +385,22 @@ nav {
     }
     .col1,.col2,.col3,.col4{
         width: 100%;
+    }
+
+    /* Section 03 */
+    .section3{
+        padding: 45px 35px;
+        flex-direction: column;
+    }
+    .card-image{
+        font-size: 3.5vw;
+    }
+    .section3-right-description{
+        font-size: 3.8vw;
+    }
+    .section3-right-name.d-flex.justify-content-between {
+        font-size: 2.8vw;
+        color: rgba(255, 0, 0, 0.242);
     }
 
 }
