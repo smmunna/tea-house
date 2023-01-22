@@ -273,7 +273,17 @@ nav {
     border-radius: 12px;
     color: white;
 }
-
+.foot-bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.input-text input{
+    border: hidden;
+    outline: transparent;
+    padding: 10px;
+    width: 400px;
+}
 /* --------------------------
     Responsive Design 
     -------------------------*/
@@ -354,6 +364,24 @@ nav {
         margin: 25px 10px;
         font-size: 2.4vw;
         text-align: left!important;
+    }
+
+    .foot-bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-text input{
+        width: 100%;
+    }
+    .quick-links{
+        margin-top: 15px;
+    }
+    .foot-bottom-4{
+        margin-top: 15px;
+    }
+    .help,.help-link{
+        margin-left: -15%;
     }
    
 }
@@ -483,5 +511,17 @@ nav {
     }
     .foot-top-right{
         margin-top: 3%;
+    }
+    .foot-bottom{
+        flex-direction: column;
+    }
+    .input-text input{
+        width: 100%;
+    }
+    .quick-links{
+        margin-top: 15px;
+    }
+    .foot-bottom-4{
+        margin-top: 15px;
     }
 }
