@@ -247,6 +247,33 @@ nav {
     font-weight: bold;
 }
 
+
+/* Footer */
+.footer{
+    padding: 50px 150px;
+    background-color: rgba(255, 149, 0, 0.221);
+}
+.foot-top{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-top-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.foot-top-right p{
+    padding-top: 15px;
+}
+.foot-top-right-btn button{
+    border: hidden;
+    background-color: var(--thirdColor);
+    padding: 12px;
+    border-radius: 12px;
+    color: white;
+}
+
 /* --------------------------
     Responsive Design 
     -------------------------*/
@@ -443,5 +470,18 @@ nav {
         margin: 15px 10px;
         font-size: 4.4vw;
         text-align: left!important;
+    }
+
+    /* Footer */
+    .footer{
+        padding: 50px 15px;
+    }
+    .foot-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot-top-right{
+        margin-top: 3%;
     }
 }
