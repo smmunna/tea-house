@@ -231,6 +231,19 @@ nav {
     font-weight: bold;
 }
 
+/* Section 04 */
+.section4{
+    padding: 100px 150px;
+}
+.section4-description{
+    font-size: 1.4vw;
+    margin-top: 2%;
+    color: var(--secondaryColor);
+}
+.card{
+    padding: 20px;
+}
+
 /* --------------------------
     Responsive Design 
     -------------------------*/
@@ -298,6 +311,19 @@ nav {
     .section3-right-name.d-flex.justify-content-between {
         font-size: 1.8vw;
         color: rgba(255, 0, 0, 0.242);
+    }
+
+    /* Section 04 */
+    .section4{
+        padding: 50px 5px;
+    }
+    .card-title{
+        font-weight: bold;
+    }
+    .section4-description {
+        margin: 25px 10px;
+        font-size: 2.4vw;
+        text-align: left!important;
     }
    
 }
@@ -403,4 +429,16 @@ nav {
         color: rgba(255, 0, 0, 0.242);
     }
 
+    /* Section 04 */
+    .section4{
+        padding: 50px 5px;
+    }
+    .card-title{
+        font-weight: bold;
+    }
+    .section4-description {
+        margin: 15px 10px;
+        font-size: 4.4vw;
+        text-align: left!important;
+    }
 }
