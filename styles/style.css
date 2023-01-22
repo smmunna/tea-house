@@ -243,6 +243,9 @@ nav {
 .card{
     padding: 20px;
 }
+.card-title{
+    font-weight: bold;
+}
 
 /* --------------------------
     Responsive Design 
