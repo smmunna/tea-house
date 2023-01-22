@@ -383,6 +383,7 @@ nav {
     .help,.help-link{
         margin-left: -15%;
     }
+  
    
 }
 
@@ -523,5 +524,9 @@ nav {
     }
     .foot-bottom-4{
         margin-top: 15px;
+    }
+    .footer-copy-right{
+        padding: 20px 50px;
+     margin-top: 5%; 
     }
 }
